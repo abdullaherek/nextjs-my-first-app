@@ -4,10 +4,9 @@ function Layout({ children }) {
   return (
     <div>
         <Head>
-            <title> Nerede </title>
+            <title> THE RICK AND MORTY </title>
             <meta name = "viewport" content = "initial-scale=1.0, width-device=width" />
         </Head>
-      <Navigation />
       <main>{children}</main>
     </div>
   );
